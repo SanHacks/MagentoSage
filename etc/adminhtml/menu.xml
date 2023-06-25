@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+<!-- Compare this snippet from src/app/code/Gundo/Sage/etc/adminhtml/menu.xml: -->
+
+    <menu>
+        <add id="Gundo_Sage::sage" title="Sage" module="Gundo_Sage" sortOrder="10" resource="Gundo_Sage::sage"/>
+        <add id="Gundo_Sage::config_sage" title="Sagacity Configuration" module="Gundo_Sage" sortOrder="10" parent="Gundo_Sage::sage" action="adminhtml/system_config/edit/section/sage" resource="Gundo_Sage::config_sage"/>
+    </menu>
+
+
+</config>

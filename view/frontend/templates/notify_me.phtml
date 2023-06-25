@@ -1,0 +1,16 @@
+
+/*
+ * *
+ *  * Copyright © Vaimo Group. All rights reserved.
+ *  * See LICENSE_VAIMO.txt for license details.
+ *
+ */
+
+<div>
+    <h1>Notify Me</h1>
+    <form method="post" action="<?= $block->getUrl('custom_catalog/notify/submit') ?>">
+        <input type="hidden" name="product_id" value="<?= $productId ?>">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Notify Me</button>
+    </form>
+</div>

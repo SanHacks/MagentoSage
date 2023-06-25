@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.github.texhnolyzze.jiraworklogplugin.JiraWorklogPluginState">
+    <option name="closed" value="true" />
+    <option name="lastBranch" value="main" />
+    <option name="timers" value="{&quot;master&quot;:{&quot;total&quot;:1295032628282,&quot;updatedAtSinceEpoch&quot;:1687123072.576271120,&quot;paused&quot;:true},&quot;main&quot;:{&quot;total&quot;:580116357371,&quot;updatedAtSinceEpoch&quot;:1687165261.962063154,&quot;paused&quot;:true}}" />
+    <option name="timeSeries" value="[{&quot;branch&quot;:&quot;master&quot;,&quot;started&quot;:1687121710.645807534,&quot;duration&quot;:1165.027599398},{&quot;branch&quot;:&quot;main&quot;,&quot;started&quot;:1687123562.216912503,&quot;duration&quot;:550.103205454},{&quot;branch&quot;:&quot;main&quot;,&quot;started&quot;:1687150233.277257556,&quot;duration&quot;:0.0},{&quot;branch&quot;:&quot;main&quot;,&quot;started&quot;:1687153667.967058218,&quot;duration&quot;:20.011975298},{&quot;branch&quot;:&quot;main&quot;,&quot;started&quot;:1687153701.862371660,&quot;duration&quot;:0.0},{&quot;branch&quot;:&quot;main&quot;,&quot;started&quot;:1687165220.947571046,&quot;duration&quot;:0.0},{&quot;branch&quot;:&quot;main&quot;,&quot;started&quot;:1687165236.195117813,&quot;duration&quot;:0.0},{&quot;branch&quot;:&quot;main&quot;,&quot;started&quot;:1687165256.227580725,&quot;duration&quot;:10.001176619}]" />
+  </component>
+</project>

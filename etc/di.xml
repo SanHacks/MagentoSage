@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="GundoSageExport" xsi:type="object">Gundo\Sage\Console\Command\ExportCommand</item>
+                <item name="GundoSageImport" xsi:type="object">Gundo\Sage\Console\Command\ImportCommand</item>
+                <item name="GundoSageSchedule" xsi:type="object">Gundo\Sage\Console\Command\ScheduleCommand</item>
+                <item name="GundoSageCheckup" xsi:type="object">Gundo\Sage\Console\Command\CheckupCommand</item>
+                <item name="GundoSageOneStop" xsi:type="object">Gundo\Sage\Console\Command\OneStopCommand</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

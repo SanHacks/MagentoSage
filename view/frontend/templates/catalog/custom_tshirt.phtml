@@ -1,0 +1,24 @@
+<div>
+    <h1>Custom T-Shirt Catalog</h1>
+    <!-- Your existing form code -->
+
+    <?php if ($customTshirtData): ?>
+        <?php
+        $generatedImages = $block->getGeneratedImages($prompt, $n, $size);
+        if (!empty($generatedImages['images'])) {
+            foreach ($generatedImages['images'] as $imageData) {
+                $imageUrl = $imageData['url'];
+                $prompt = $imageData['prompt'];
+                ?>
+                <div>
+                    <img src="<?php echo $imageUrl; ?>" alt="<?php echo $prompt; ?>" />
+                    <p>Prompt: <?php echo $prompt; ?></p>
+                </div>
+                <?php
+            }
+        }
+        ?>
+    <?php endif; ?>
+
+    <!-- Your existing "Notify Me" form code -->
+</div>
