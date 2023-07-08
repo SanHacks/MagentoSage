@@ -1,4 +1,10 @@
 <?php
+/*
+ * *
+ *  * Copyright © Gundo Sifhufhi. All rights reserved.
+ *  * See Github_Sanhacks.txt for license details.
+ *
+ */
 
 namespace Gundo\Sage\Helper;
 
@@ -10,7 +16,7 @@ use GuzzleHttp\Psr7\Request;
 
 class API
 {
-    private $client;
+    private Client $client;
 
     public function __construct()
     {

@@ -1,8 +1,8 @@
 <?php
 /*
  * *
- *  * Copyright © Vaimo Group. All rights reserved.
- *  * See LICENSE_VAIMO.txt for license details.
+ *  * Copyright © Gundo Sifhufhi. All rights reserved.
+ *  * See Github_Sanhacks.txt for license details.
  *
  */
 

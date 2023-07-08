@@ -1,4 +1,11 @@
 <?php
+/*
+ * *
+ *  * Copyright © Gundo Sifhufhi. All rights reserved.
+ *  * See Github_Sanhacks.txt for license details.
+ *
+ */
+
 declare(strict_types=1);
 
 namespace Gundo\Sage\Model;
