@@ -28,7 +28,7 @@ class CheckupCommand extends Command
      * @param OutputInterface $output An OutputInterface instance
      * @return null|int null or 0 if everything went fine, or an error code
      */
-    public function execute(\Symfony\Component\Console\Input\InputInterface $input, \Symfony\Component\Console\Output\OutputInterface $output): ?int
+    public function execute(InputInterface $input, OutputInterface $output): ?int
     {
         $output->writeln('CheckupCommand');
         return 0;

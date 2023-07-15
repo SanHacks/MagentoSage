@@ -10,14 +10,16 @@ namespace Gundo\Sage\Controller;
 
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\Controller\ResultFactory;
+use Magento\Framework\Controller\ResultInterface;
+use Magento\Framework\Exception\NotFoundException;
 
 class Checkout extends Action
 {
     /**
      * Dispatch request
      *
-     * @return \Magento\Framework\Controller\ResultInterface|ResponseInterface
-     * @throws \Magento\Framework\Exception\NotFoundException
+     * @return ResultInterface|ResponseInterface
+     * @throws NotFoundException
      */
     public function execute()
     {

@@ -8,11 +8,10 @@
 
 namespace Gundo\Sage\Helper;
 
-use GuzzleHttp\Exception\GuzzleException;
-use Magento\Framework\App\Helper\AbstractHelper;
-
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
+use Psr\Http\Message\StreamInterface;
 
 class API
 {
@@ -26,7 +25,7 @@ class API
     /**
      * @throws GuzzleException
      */
-    public function generateImages($prompt, $n, $size): \Psr\Http\Message\StreamInterface
+    public function generateImages($prompt, $n, $size): StreamInterface
     {
         $headers = [
             'Content-Type' => 'application/json',
