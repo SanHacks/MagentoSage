@@ -19,7 +19,7 @@ use Magento\Framework\Exception\NotFoundException;
 class Index extends Action
 {
 
-    private $AiGeneration;
+    private AiGeneration $AiGeneration;
 
     public function __construct(Context $context, AiGeneration $AiGeneration)
     {
